@@ -18,3 +18,19 @@ output "number" {
   value       = var.number  
 }
 
+variable "ex-list" {
+  default     = {
+    "AWS",
+    "gcp",
+    "azure",
+    "DevOps",
+    100,
+    true,
+    rakesh
+}
+}
+
+output "ex-list-op" {
+  value       = "welcome to ${var.ex-list[2]} training and traine${var.ex-list[6]} are" 
+}
+
