@@ -31,6 +31,6 @@ variable "ex-list" {
 }
 
 output "ex-list-op" {
-  value       = "welcome to ${var.ex-list[2]} training and traine${var.ex-list[6]} are" 
+  value       = "welcome to ${var.ex-list[2]} training and traine is ${var.ex-list[6]} " 
 }
 
