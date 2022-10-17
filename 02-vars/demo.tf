@@ -19,7 +19,7 @@ output "number" {
 }
 
 variable "ex-list" {
-  default     = {
+  default     = [
     "AWS",
     "gcp",
     "azure",
@@ -27,7 +27,7 @@ variable "ex-list" {
     100,
     true,
     rakesh
-}
+]
 }
 
 output "ex-list-op" {
