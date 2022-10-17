@@ -26,7 +26,7 @@ variable "ex-list" {
     "DevOps",
     100,
     true,
-    rakesh
+    "rakesh"
 ]
 }
 
