@@ -14,7 +14,7 @@ variable "number" {
   default     = 100
 }
 
-output "sample-op1" {
+output "number" {
   value       = var.number  
 }
 
